@@ -7,6 +7,3 @@ script:
     - xcodebuild build -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=watchOS Simulator,name=Apple Watch Series 2 - 42mm"
     - xcodebuild build -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=tvOS Simulator,name=Apple TV 1080p"
     - xcodebuild test -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=macOS,arch=x86_64"
-    - xcodebuild test -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=iOS Simulator,name=iPhone 7 Plus"
-    - xcodebuild test -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=watchOS Simulator,name=Apple Watch Series 2 - 42mm"
-    - xcodebuild test -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=tvOS Simulator,name=Apple TV 1080p"
