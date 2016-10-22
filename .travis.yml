@@ -5,4 +5,4 @@ script:
     - xcodebuild clean test -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=iOS Simulator,name=iPhone 7 Plus"
     - xcodebuild clean test -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=OS X"
     - xcodebuild clean test -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=tvOS Simulator,name=Apple TV 1080p"
-    - xcodebuild clean test -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=watchOS Similator,name=Apple Watch Series 2 - 42mm"
+    - xcodebuild clean test -project BytesKit.xcodeproj -scheme BytesKit -destination "platform=watchOS Simulator,name=Apple Watch Series 2 - 42mm"
