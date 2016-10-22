@@ -1,8 +1,8 @@
 # `import BytesKit`
 
-![Swift 3.0](https://img.shields.io/badge/Swift-3.0-ee4f37.svg) ![Build Status](https://img.shields.io/travis/alexaubry/BytesKit.svg) 
+![Swift 3.0](https://img.shields.io/badge/Swift-3.0-ee4f37.svg) ![Licence](https://img.shields.io/cocoapods/l/BytesKit.svg) ![Build Status](https://img.shields.io/travis/alexaubry/BytesKit.svg) ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-41BC51D.svg) ![CocoaPods](https://img.shields.io/cocoapods/v/BytesKit.svg)
 
-`BytesKit` is a set of tools to interact with Bytes in Swift.
+`BytesKit` allows you to manipulate bytes in Swift objects in a protocol-oriented manner.
 
 ## Features
 
@@ -57,7 +57,7 @@ Drop the `BytesKit.swift` file into your project.
 
 This library defines the `BytesConvertible` protocol, which is the root of all of its features.
 
-Natively, `String` and `Data` conform to this protocol, and you can make your own type conform to it as well.
+`String` and `Data` conform to this protocol out of the box, and you can make your own custom types conform to it as well.
 
 ### Convert an object to an array of bytes
 
